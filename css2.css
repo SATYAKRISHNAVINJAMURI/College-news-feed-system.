@@ -1,0 +1,40 @@
+
+input [type=text] ,input[type=numbers],input[type=email],input[type=name],input[type=date]{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid green;
+    box-sizing: border-box;
+}
+.button {
+    width: 30%;
+    background-color: green;
+
+}
+
+select{
+	   width:10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid green;
+    box-sizing: border-box;
+}
+.button_shadow:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button {
+    background-color:green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+}
+body{
+background-color: lightgrey;
+}
